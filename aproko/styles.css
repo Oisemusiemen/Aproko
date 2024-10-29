@@ -1,0 +1,41 @@
+body{
+color: rgb(255, 255, 255);
+font-weight: lighter;
+background-color: rgb(0, 0, 0);
+font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    justify-self: center;
+    margin-bottom: 100px;
+    font-weight: 100;
+}
+ .back {
+      align-items: left;
+      z-index: 1000000000000000000000000000000000000000000;
+      position: fixed;
+      left: 0px;
+      top: 0%;
+    }
+
+    .home-button {
+      background-color: #c5c5c5;
+      /* Example background color */
+      color: rgb(0, 0, 0);
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: auto;
+      cursor: pointer;
+      border: none;
+      z-index: -10;
+      margin-left: 0vh;
+      left: 0px;
+    }
+
+    .home-button:hover {
+      background-color: #b1aaaa;
+      /* Darker shade on hover */
+    }
